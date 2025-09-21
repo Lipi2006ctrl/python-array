@@ -1,0 +1,11 @@
+
+
+arr = [1, 2, 3, 2, 4, 5, 1, 6]
+unique = []
+
+for num in arr:
+    if num not in unique:
+        unique.append(num)
+
+print("Original array:", arr)
+print("Array after removing duplicates:", unique)
