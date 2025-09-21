@@ -1,0 +1,11 @@
+
+
+arr = [5, 12, 7, 18, 3, 20]
+result = []
+
+for num in arr:
+    if num > 10:
+        result.append(num)
+
+print("Array:", arr)
+print("Elements greater than 10:", result)
