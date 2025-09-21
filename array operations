@@ -1,0 +1,11 @@
+import array as arr
+numbers = arr.array('i', [10, 20, 30, 40, 50])
+print("Array elements:")
+for num in numbers:
+    print(num)
+print("\nFirst element:", numbers[0])
+print("Last element:", numbers[-1])
+numbers.append(60)
+print("\nArray after appending 60:", numbers)
+numbers.remove(30)
+print("Array after removing 30:", numbers)
