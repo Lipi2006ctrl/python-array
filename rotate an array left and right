@@ -1,0 +1,12 @@
+
+
+arr = [1, 2, 3, 4, 5]
+n = 2  
+
+
+left_rotated = arr[n:] + arr[:n]
+print("Left rotation by", n, ":", left_rotated)
+
+
+right_rotated = arr[-n:] + arr[:-n]
+print("Right rotation by", n, ":", right_rotated)
